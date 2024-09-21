@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body class="bg-dark">
+    <main class="rounded p-5 mt-5" style="background-color:lightgreen;width:85%;margin-left:auto;margin-right:auto;">
+        <p class="text-center bg-dark rounded text-success" id="timer" style="font-size:50px;">0</p>
+        <p class="bg-dark rounded text-danger text-center d-none" id="half-warning">Less than half of the timer is remaining!</p>
+        <button class="btn btn-success" id="timer_button">Start</button>
+        <form style="margin-left:auto;margin-right:auto;padding:20px;width:85%;">
+             <input class="mx-auto" type="number" id="time_input" style="width: 200px;height:100px;font-size:50px;"></input>
+        </form>
+   </main>
+</body>
+<footer>
+    <script src="/js/bootstrap.js"></script>
+    <script src="timer.js"></script>
+</footer>
+</html>
